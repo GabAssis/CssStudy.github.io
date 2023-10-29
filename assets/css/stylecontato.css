@@ -9,10 +9,6 @@
     box-sizing: border-box;
 }
 
-main{
-    background-color: #7A7366 ;
-}
-
 
 .logo img{
     width: 6.5rem;
@@ -77,12 +73,42 @@ nav{
     
 }
 
+body{
+    background-color: #3F2E3E;  
+    top: 0;
+    margin: 0;
+    
+}
+
 #formulario_mensagem{
     font-family: 'Montserrat', sans-serif;
-    padding: 1rem;
-    background-color: #A78295;
-    margin-top: 3.52rem;
+    padding: 12PX 12PX 12PX 12PX;
+    background-color: #C8D5B9;
+    width: 30rem;
+    margin: 4.52rem;
+    border-radius: 0.6rem;
 }
+
+input{
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+    resize: vertical ;
+    background-color: #C8D5B9;
+  }
+  
+  textarea {
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border: 0.15rem solid #3F2E3E;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    resize: vertical ;
+    background-color: #C8D5B9;
+  }
 
 
 #formulario_mensagem h2{
@@ -110,29 +136,17 @@ nav{
     margin-bottom: 0.8rem;
     
 }
-.campos-form input{
-    margin-top: 0.2rem;
-    border-radius: 0.4rem;
-    border: 0;
-    padding: 0.3rem;
-}
 
-.campos-form textarea{
-    margin-top: 0.2rem;
-    border-radius: 0.4rem;
-    border: 0;
-    padding: 0.3rem;
-}
+
     
 
 
-
 footer{
-    display: flex;
+    display: flex-end;
     padding: 1rem;
     flex-direction: column;
-    background-color: #3F2E3E;
-    margin-bottom: 0;
+    background-color: #331D2C;
+    margin-top: 27.5rem;
 }
 
 .redes_sociais img{
