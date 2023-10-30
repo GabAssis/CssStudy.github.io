@@ -29,17 +29,17 @@
     <main id="contato">
         <section id="formulario_mensagem">
             <h2>Contato</h2>
-                <form>
+                <form id="forms">
                     <div class="campos-form">
                         <label for="nome">Nome:</label>
-                        <input onkeyup="validarNome()" id="nome" name="nome" type="text"
+                        <input onkeydown="validarNome()" id="nome" name="nome" type="text"
                             placeholder="Insira o seu nome completo">
                         <div id="txtNome"></div>
                     </div>
 
                     <div class="campos-form">
                         <label for="email">E-mail:</label>
-                        <input onkeyup="validarEmail2()" id="email" name="email" type="text"
+                        <input onkeyup="validarEmail()" id="email" name="email" type="email"
                             placeholder="Insira o seu e-mail">
                         <div id="txtEmail"></div
                     </div>
@@ -51,7 +51,7 @@
                         <div id="txtMensagem"></div>
                     </div>
 
-                    <button type="button" onclick="enviarForm()">
+                    <button id="submitbtn" type="button" onclick="enviarForm()">
                         Enviar
                     </button>
 
