@@ -97,6 +97,7 @@ main{
         background-image: url(/assets/images/chuback.png);
         background-repeat: no-repeat;
         background-position: left bottom;
+        background-size: 10rem;
         clip-path: inset(0 0 0 100%);
         
         transition: 0.3s ease-out;
